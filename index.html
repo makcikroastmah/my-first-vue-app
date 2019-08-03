@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Heelloo World</title>
+
+</head>
+
+<body>
+    <h1>hello</h1>
+    
+    <div id="app">
+
+
+    <input v-model="name">
+    
+    <p id="fstsntnce">Hello guyss, my name is {{ name }}. </p> 
+    
+    <ul>
+        <li v-for="food in food_items">{{ food }}</li>
+    </ul>
+    
+
+    <button v-on:click="buttonClick">Click Aku Plsss</button>
+
+      </div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
